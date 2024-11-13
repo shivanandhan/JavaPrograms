@@ -4,7 +4,7 @@ public class primeNumber {
 
     public static void main(String[] args)
     {
-        int num=7;
+        int num=8;
         boolean flag = false;
         //0 and 1 are not prime numbers
         if(num ==0||num==1)
