@@ -1,13 +1,14 @@
 package JavaPrograms.Strings;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class RemoveDuplicatesString {
     public static String duplicates(String str)
     {
         String lowercaseStr= str.toLowerCase();
         char characters[] = lowercaseStr.toCharArray();
-        HashSet<Character> unique = new HashSet<>();
+        HashSet<Character> unique = new LinkedHashSet<>();
         for(char character:characters)
         {
             if(!unique.contains(character))
