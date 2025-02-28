@@ -30,8 +30,8 @@ public class RemoveDuplicates {
     public static void main(String[] args)
     {
         int arr[] = { 1, 1, 2, 2, 2, 4, 2 };
-        int n = arr.length;
-        n= removeduplicates(arr);
+       // int n = arr.length;
+        int n= removeduplicates(arr);
         // Printing The array elements
         for (int i = 0; i < n; i++)
             System.out.print(arr[i] + " ");
